@@ -13,5 +13,4 @@ jobs:
   create_builds:
     runs-on: ubuntu-latest 
     steps:
-    - uses: bjackerman/MarlinAutoEnder3@v1
-
+     - uses: zisismaras/marlin_auto_build@v1
