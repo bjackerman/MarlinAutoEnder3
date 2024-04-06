@@ -1,0 +1,18 @@
+module.exports = {
+    extends: "builds/default.js",
+    meta: {
+        stable_name: "ender_3_4.2.2-{{marlin_version}}-base-{{uid}}",
+        nightly_name: "ender_3_4.2.2-{{current_date}}-base-{{uid}}"
+    },
+    configuration: {
+        enable: [
+            ["TEMP_SENSOR_0", 998]
+        ]
+    },
+    configuration_adv: {
+        enable: [
+            //octoprint
+            "HOST_ACTION_COMMANDS"
+        ]
+    }
+};
